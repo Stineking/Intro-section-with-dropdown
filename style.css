@@ -13,7 +13,7 @@
 
 body{
      font-family: "Epilogue", sans-serif;
-     border: 2px solid blue;
+     /* border: 2px solid blue; */
      max-width: 1540px;
      margin: 0 auto;
 }
@@ -55,4 +55,32 @@ p{
     font-size: 18px;
     line-height: 1.5;
     font-weight: 500;
+}
+
+#section-2-btn-wrapper{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+#section-2-btn-wrapper > button{
+    background-color: var(--Almost-Black);
+    color: var(--Almost-White);
+    padding: 15px 25px;
+    border: none;
+    border-radius: 13px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#section-2-img-wrapper{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0 45px 0;
+}
+
+#section-2-img-wrapper{
+    max-width: 100%;
 }
